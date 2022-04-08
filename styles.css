@@ -9,12 +9,6 @@ body
     height: 100vh;
     overflow: hidden;
 }
-#href {
-    left:30px;
-    font-size: 9em;
-    line-height: 20vh;
-    font-family: 'Cabin', sans-serif;
-}
 #fullpage section h1 {
     margin: 0;
     padding: 0;
@@ -110,5 +104,14 @@ body
         -webkit-transform: none;
         transform: none;
         }
-        } 
-
+        }
+.href-volver {
+    position: relative;
+    top: -15px;
+    right: -535px;
+    font-size: 110px;
+    color: #ffffff;
+}
+.href-volver:hover {
+    color: #979797;
+}
